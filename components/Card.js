@@ -21,7 +21,10 @@ import {
   FaLaravel,
   FaBootstrap,
   FaDatabase,
+  FaVuejs,
+  FaNodeJs,
 } from 'react-icons/fa'
+import { SiNextDotJs, SiTypescript, SiRedux, SiMongodb } from 'react-icons/si'
 import useMediaQuery from '../hook/useMediaQuery'
 import ReactGA from 'react-ga'
 
@@ -46,21 +49,30 @@ export default function Cards({
     } else if (tag == 'Javascript') {
       values[0] = 'yellow'
       values[1] = FaJs
+    } else if (tag == 'Typescript') {
+      values[0] = 'blue'
+      values[1] = SiTypescript
     } else if (tag == 'Sass') {
       values[0] = 'pink'
       values[1] = FaSass
-    } else if (tag == 'Flask') {
+    } else if (tag == 'Vue') {
       values[0] = 'green'
-      values[1] = FaPepperHot
-    } else if (tag == 'Laravel') {
-      values[0] = 'red'
-      values[1] = FaLaravel
-    } else if (tag == 'Bootstrap') {
+      values[1] = FaVuejs
+    } else if (tag == 'Node.js') {
+      values[0] = 'green'
+      values[1] = FaNodeJs
+    } else if (tag == 'Redux') {
       values[0] = 'purple'
-      values[1] = FaBootstrap
+      values[1] = SiRedux
     } else if (tag == 'SQL') {
       values[0] = 'blue'
       values[1] = FaDatabase
+    } else if (tag == 'MongoDB') {
+      values[0] = 'green'
+      values[1] = SiMongodb
+    } else if (tag == 'Next') {
+      values[0] = 'black'
+      values[1] = SiNextDotJs
     } else {
       values[0] = 'gray'
       values[1] = FaCode
