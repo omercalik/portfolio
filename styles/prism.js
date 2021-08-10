@@ -9,8 +9,7 @@ const prismBaseTheme = css`
   pre[class*='language-'] {
     color: ${theme.colors.gray[800]};
     background: none;
-    font-family: ${theme.fonts.mono} sans-serif;
-    font-display: swap;
+    font-family: ${theme.fonts.mono};
     font-size: ${theme.fontSizes[2]};
     text-align: left;
     word-spacing: normal;
@@ -122,8 +121,7 @@ const prismBaseTheme = css`
   }
   .remark-code-title {
     padding: ${theme.space[2]} ${theme.space[4]};
-    font-family: ${theme.fonts.mono} sans-serif;
-    font-display: swap;
+    font-family: ${theme.fonts.mono};
     background: ${theme.colors.gray[200]};
     color: ${theme.colors.gray[800]};
     border: 1px solid ${theme.colors.gray[200]};
