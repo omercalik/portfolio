@@ -30,7 +30,7 @@ export default function AboutMe() {
       <>
         {' '}
         {isLargerThan800 ? (
-          <Popover trigger="hover" placement="right">
+          <Popover trigger="hover" placement="right" isLazy>
             <PopoverTrigger>
               <chakra.span
                 onMouseOver={() => handleHover(`about_${text}`)}
@@ -76,14 +76,16 @@ export default function AboutMe() {
               <MoreInfo
                 text="Ziraat Bank"
                 content={
-                  <Image src="https://i.imgur.com/ipFrRMZ.png" alt="linkedin" />
+                  <Image w={306}
+                  h={102} src="https://i.imgur.com/ipFrRMZ.png" alt="linkedin" />
                 }
               />{' '}
               and{' '}
               <MoreInfo
                 text="May Cyber Technology"
                 content={
-                  <Image src="https://i.imgur.com/4FMzc0Q.png" alt="linkedin" />
+                  <Image w={306}
+                  h={102} src="https://i.imgur.com/4FMzc0Q.png" alt="linkedin" />
                 }
               />{' '}
               as intern.
@@ -113,11 +115,9 @@ export default function AboutMe() {
               />
               <Image
                 src="https://i.imgur.com/YE8cso5.png"
-                w="400"
-                h="392"
+                w={{ base: '300px', lg: '350px' }}
+                h={{ base: '300px', lg: '350px' }}
                 
-                maxW={{ base: '300px', lg: '350px' }}
-                maxH={{ base: '300px', lg: '350px' }}
                 alt="illustration"
               />
             </Box>
