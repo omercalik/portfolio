@@ -121,7 +121,7 @@ export default function Cards({
         ></Image>
         <Stack px={4} py={2}>
           <Stack isInline justifyContent="space-between" alignItems="center">
-            <Text fontFamily="Ubuntu" fontSize="2xl" color="displayColor">
+            <Text fontSize="2xl" color="displayColor">
               {title}
             </Text>
             <Stack

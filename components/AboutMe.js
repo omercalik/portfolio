@@ -61,8 +61,8 @@ export default function AboutMe() {
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8}>
         <SlideUpWhenVisible>
           <Stack spacing={4}>
-            <Heading fontFamily="Ubuntu" fontSize="2xl">
-              ⚡ About Me
+            <Heading  fontSize="2xl">
+               About Me
             </Heading>
             <Text
               color="textSecondary"

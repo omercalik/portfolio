@@ -13,7 +13,7 @@ export default function LatestArticle({ articles }) {
     >
       <SlideUpWhenVisible>
         <Flex alignItems="center" justifyContent="space-between">
-          <Heading fontSize={{ base: 'xl', md: '2xl' }} fontFamily="Ubuntu">
+          <Heading fontSize={{ base: 'xl', md: '2xl' }}>
             📰 Latest Article.
           </Heading>
           <NextLink href="/projects">

@@ -39,7 +39,6 @@ export default function FeaturedProjects({ projects }) {
                 <Heading
                   fontSize={{ base: 'xl', md: '2xl' }}
                   color="displayColor"
-                  
                 >
                   All Creative Works.
                 </Heading>
