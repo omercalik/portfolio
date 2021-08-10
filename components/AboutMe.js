@@ -113,7 +113,9 @@ export default function AboutMe() {
               />
               <Image
                 src="https://i.imgur.com/YE8cso5.png"
-                w="100%"
+                w="400"
+                h="392"
+                
                 maxW={{ base: '300px', lg: '350px' }}
                 maxH={{ base: '300px', lg: '350px' }}
                 alt="illustration"
