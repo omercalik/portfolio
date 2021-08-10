@@ -6,6 +6,14 @@ export default class MyDocument extends NextDocument {
       <Html lang="en">
         <Head>
           <link rel="icon" href="http://omerberkancalik.com/favicon2.ico" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+            rel="stylesheet"
+          />
           <meta name="theme-color" content="black" />
         </Head>
 
