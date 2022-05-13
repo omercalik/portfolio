@@ -61,9 +61,7 @@ export default function AboutMe() {
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8}>
         <SlideUpWhenVisible>
           <Stack spacing={4}>
-            <Heading  fontSize="2xl">
-               About Me
-            </Heading>
+            <Heading fontSize="2xl">About Me</Heading>
             <Text
               color="textSecondary"
               fontSize={{ base: '14px', md: '16px' }}
@@ -76,22 +74,36 @@ export default function AboutMe() {
               <MoreInfo
                 text="Ziraat Bank"
                 content={
-                  <Image w={306}
-                  h={102} src="https://i.imgur.com/ipFrRMZ.png" alt="linkedin" />
+                  <Image
+                    w={306}
+                    h={102}
+                    src="https://i.imgur.com/ipFrRMZ.png"
+                    alt="linkedin"
+                  />
                 }
               />{' '}
               and{' '}
               <MoreInfo
                 text="May Cyber Technology"
                 content={
-                  <Image w={306}
-                  h={102} src="https://i.imgur.com/4FMzc0Q.png" alt="linkedin" />
+                  <Image
+                    w={306}
+                    h={102}
+                    src="https://i.imgur.com/4FMzc0Q.png"
+                    alt="linkedin"
+                  />
                 }
               />{' '}
-              as intern.
+              as intern. After that i worked as Fullstack Web Developer for 4
+              months at
+              <MoreInfo
+                text="Mobiversite"
+                content={<a>https://www.mobiversite.com/</a>}
+              />
+              .Right now I am working at a startup as Lead Developer.
               <br />I do programming in various languages and technologies
-              mainly MongoDB, Express.js, React.js, Node.js,Next.js. I am
-              currently playing around with .NET Core and C#.
+              mainly MongoDB, PostgreSQL, Nest.js, Express.js, React.js,
+              Node.js,Next.js and building mobile applications with Flutter.
               <br />
               <br />
             </Text>
@@ -117,7 +129,6 @@ export default function AboutMe() {
                 src="https://i.imgur.com/YE8cso5.png"
                 w={{ base: '300px', lg: '350px' }}
                 h={{ base: '300px', lg: '350px' }}
-                
                 alt="illustration"
               />
             </Box>

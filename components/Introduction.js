@@ -79,8 +79,9 @@ export default function Introduction() {
               Full Stack Web Developer
             </Box>{' '}
             who specializes in Javascript Technologies across the whole stack
-            (MongoDB, Express,React,Node.js). Experienced in building complete
-            web applications with backend API Systems.
+            (MongoDB/PostgreSQL, Express/Nest.js,React/Next.js,Node.js).
+            Experienced in building complete web applications with backend API
+            Systems.
           </Heading>
         </SlideFade>
 
